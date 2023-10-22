@@ -33,9 +33,9 @@
 
 
 
-# 📖 Awsome Books With React <a name="about-project"></a>
+# 📖 REACT-RAILS ONE APP <a name="about-project"></a>
 
-**Awsome Books With React** is a... Describe your project in 1 or 2 sentences.
+**REACT RAILS ONE APP** is a app using rails and react in the same repo
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -84,21 +84,26 @@ Install this:
 Node js
 Visual Studio Code
 Git
+Ruby
+Rails
 
 
 
 ### Setup
 
-Clone this repository to your desired folder:
-and a open a new terminal on your visual studio code
-
+run this commands:
+bundle instaill
+rails db:create
+rails db:migrate
 
   
 
 ### Install
 
 Install this project with:
-npm install
+rails s 
+or
+./bin/dev
 
 
 
@@ -107,7 +112,10 @@ npm install
 ### Usage
 
 To run the project, execute the following command:
-npm run start
+rails s 
+or
+./bin/dev
+
 
 
 
@@ -118,7 +126,7 @@ npm run start
 ### Run tests
 
 To run tests, run the following command:
-npm run test
+rubocop
 
 
 
@@ -157,8 +165,8 @@ I recomend Render since is easy to use
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[Improve user interface]**
-- [ ] **[Improve Js code]**
-- [ ] **[Implement conexion to a database]**
+- [ ] **[Improve Jsx code]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
