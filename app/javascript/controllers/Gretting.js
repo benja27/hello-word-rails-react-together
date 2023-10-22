@@ -6,12 +6,7 @@ import { fetchMessageFromAPI } from './greeting_slice';
 
 function Gretting() {
   const message = useSelector((state) => state.greeting);
-  const dispatch = useDispatch();
-
-  const handleClick = () => {
-    dispatch(fetchMessageFromAPI);
-  };
-
+  const dispatch = useDispatch();  
 
   return (
     <div>    
